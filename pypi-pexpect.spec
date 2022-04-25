@@ -4,7 +4,7 @@
 #
 Name     : pypi-pexpect
 Version  : 4.8.0
-Release  : 78
+Release  : 79
 URL      : https://files.pythonhosted.org/packages/e5/9b/ff402e0e930e70467a7178abb7c128709a30dfb22d8777c043e501bc1b10/pexpect-4.8.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e5/9b/ff402e0e930e70467a7178abb7c128709a30dfb22d8777c043e501bc1b10/pexpect-4.8.0.tar.gz
 Summary  : Pexpect allows easy control of interactive console applications.
@@ -14,9 +14,6 @@ Requires: pypi-pexpect-license = %{version}-%{release}
 Requires: pypi-pexpect-python = %{version}-%{release}
 Requires: pypi-pexpect-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pexpect
-Provides: pexpect-python
-Provides: pexpect-python3
 BuildRequires : pypi(ptyprocess)
 
 %description
@@ -73,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641468094
+export SOURCE_DATE_EPOCH=1650914953
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
